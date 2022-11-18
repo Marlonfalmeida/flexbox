@@ -13,7 +13,8 @@ body {
     justify-content: space-between;
     /* alinhamento vertical */
     align-items: center;
-    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .item {
@@ -26,6 +27,25 @@ body {
 .box {
     background-color: #ccc;
     border: 2px solid blue;
-    height: 50px;
-    flex-basis: 30px;
+    height: 50px;    
+     /* shorthand para item  */
+     flex: 1 1 50px;
+     /* GROW SHRINK E BASIS */
 }
+
+/* #item-1 {
+    flex-grow: 2;
+}
+
+#item-2,
+#item-3 {
+    flex-grow: 1;
+}
+
+#item-2 {
+    flex-basis: 100px;
+} */
+
+/* #item-3 {
+    flex-shrink: 2;
+} */
