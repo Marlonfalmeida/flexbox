@@ -49,3 +49,13 @@ body {
 /* #item-3 {
     flex-shrink: 2;
 } */
+
+#item-2 {
+    order: 1;
+}
+#item-3 {
+    order: 2;
+}
+#item-1 {
+    order: 3;
+}
