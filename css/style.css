@@ -6,9 +6,10 @@
     height: 300px;
     display: flex;
     /* alinhamento horizontal */
-    justify-content: center;
+    justify-content: space-between;
     /* alinhamento vertical */
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .item {
